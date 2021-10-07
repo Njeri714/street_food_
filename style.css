@@ -32,9 +32,22 @@ button{
 body{
     font-family: "lato extended", lato, "Helvetica Neue", Arial, Helvetica, sans-serif;
 }
-.intro{
-    
+.intro {
     padding-left: 100px;
     padding-right: 100px;
     margin-top: 150px;
+}
+#menu{
+    color: #6cb840;
+    text-align: center;
+}
+.explore menu{
+    background-color: #EAF3E4;
+    padding:20px;
+}
+.eat .eating span{
+    color: #EAAB1B;
+}.eat {
+    margin-left: 80px;
+    margin-bottom: 80px;
 }
