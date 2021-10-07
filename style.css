@@ -1,14 +1,18 @@
-.nav{
+#nav{
     display: flex;
     justify-content: space-between;
-    padding-left: 100px;
-    padding-right: 100px;
 }
-.nav_bar nav ul li{
+.nav_bar .nav ul li{
     list-style: none;
     display: inline;
     padding: 40px;
 }
+.nav_bar .nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
 #street{
     color: #6cb840;
 }
@@ -28,13 +32,9 @@ button{
 body{
     font-family: "lato extended", lato, "Helvetica Neue", Arial, Helvetica, sans-serif;
 }
-.nav_bar nav2 ul li a {
-    text-decoration: none;
-    color: black;
-    font-size: 18px;
-}
-.nav_bar{
-    background-color: #E5E5E5;
-    height: 800px;
-    overflow:hidden;
+.intro{
+    
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 150px;
 }
