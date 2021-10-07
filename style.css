@@ -51,3 +51,27 @@ body{
     margin-left: 80px;
     margin-bottom: 80px;
 }
+.deals{
+    background-color: #6cb840;
+    padding: 10px 200px;
+}
+.deals h2{
+    text-align: center;
+    padding-top: 40px;
+}
+.deals h2 span{
+    color: #81dd4b;
+}
+#article {
+    display: flex;
+}
+.hot {
+    position: relative;
+    margin-right: 30px;
+}
+#pizz{
+    position: absolute;
+    left: 140px;
+    top: 310px;
+    width: 80%;
+}
