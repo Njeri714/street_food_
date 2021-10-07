@@ -25,3 +25,16 @@ button{
     text-align: center;
     font-weight: bold;
 }
+body{
+    font-family: "lato extended", lato, "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+.nav_bar nav2 ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+.nav_bar{
+    background-color: #E5E5E5;
+    height: 800px;
+    overflow:hidden;
+}
