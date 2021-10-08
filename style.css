@@ -129,3 +129,9 @@ input [type=email] {
       padding-left: 20px;
       padding: 20px 20px;
 }
+input [type=submit]{
+    color: white;
+    font-weight: bolder;
+    background: #6BB946;
+    padding: 20px 60px;
+}
