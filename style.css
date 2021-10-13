@@ -12,7 +12,11 @@
     color: black;
     font-size: 18px;
 }
-
+.images{
+    display: flex;
+    justify-content: right;
+     top: 15px;
+}
 #street{
     color: #6cb840;
 }
