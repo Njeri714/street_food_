@@ -134,40 +134,25 @@ input [type=email] {
       padding-left: 20px;
       padding: 20px 20px;
 }
-input [type=submit]{
-    color: white;
-    font-weight: bolder;
-    background: #6BB946;
-    padding: 20px 60px;
-    
-}
-.us {
-    color:#C9ECB5;
-}
+
+
 .footerrow1{
 width: 400px;
 }
-.footerrow2{
-    display: flex;
-}
-.send{
-    background-color: #6BB946;
-    color: white;
-    font-weight: bolder;
-    padding-left: 10px;
-    padding-right: 10px;
-}
+
+
 .insta{
     padding-left: 800px;
     padding-bottom: 40px;
     margin-top: -110px;
+    display: flex;
+    justify-content: right;
+    top: -10px;
 }
-.follow{
-    margin-top: -100px;
-}
+
 .footer{
     display: flex;
-    background-color: wheat;
+    background-color: #C9ECB5;
     margin-top: 20px;
     margin-left: 100px;
     padding: 20px;
@@ -179,4 +164,20 @@ width: 400px;
 .item2{
     display: flex;
     justify-content: right;
+}
+#me .following{
+    display:flex;
+    justify-content: right;
+
+}
+
+.me{
+    display: flex;
+     justify-content: space-evenly;
+}
+span{
+    color: #6BB946;
+}
+.footerrows1{
+    width: 500px;
 }
