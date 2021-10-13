@@ -100,6 +100,7 @@ body{
    justify-content: right;
 }
 #items {
+    display: flex;
     flex-direction: row-reverse;
     justify-content:space-between;
     padding: 12px 20px;
@@ -134,4 +135,44 @@ input [type=submit]{
     font-weight: bolder;
     background: #6BB946;
     padding: 20px 60px;
+    
+}
+.us {
+    color:#C9ECB5;
+}
+.footerrow1{
+width: 400px;
+}
+.footerrow2{
+    display: flex;
+}
+.send{
+    background-color: #6BB946;
+    color: white;
+    font-weight: bolder;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.insta{
+    padding-left: 800px;
+    padding-bottom: 40px;
+    margin-top: -110px;
+}
+.follow{
+    margin-top: -100px;
+}
+.footer{
+    display: flex;
+    background-color: wheat;
+    margin-top: 20px;
+    margin-left: 100px;
+    padding: 20px;
+}
+.footerrows{
+    width: 300px;
+    border-right: 20px dotted #6BB946;
+}
+.item2{
+    display: flex;
+    justify-content: right;
 }
