@@ -147,9 +147,13 @@ width: 400px;
     margin-top: -110px;
     display: flex;
     justify-content: right;
-    top: -10px;
+    
 }
-
+.logo{
+    top: -10px;
+    display: flex;
+    justify-content: safe;
+}
 .footer{
     display: flex;
     background-color: #C9ECB5;
