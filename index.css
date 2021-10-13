@@ -29,7 +29,7 @@ button{
     border-radius: 20px;
     width: 150px;
     height: 50px;
-    background-color: #6cb840;
+    background-color:#6CB840;
     text-align: center;
     font-weight: bold;
 }
@@ -86,7 +86,7 @@ body{
 .combo p{
     text-align: center;
 }
-.item1{
+/*.item1{
     background-color:rgb(7, 199, 0);
     border-radius: 0px 0px 50px 0px;
     text-align: center;
@@ -108,7 +108,7 @@ body{
     flex-direction: row-reverse;
     justify-content:space-between;
     padding: 12px 20px;
-}
+}*/
 .row {
     display: flex;
     justify-content: space-between;

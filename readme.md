@@ -21,7 +21,7 @@ This is a website page that shows my works/resume.
 linked
 repo; https://github.com/Njeri714/street_food_
 
-publish
+publish; https://njeri714.github.io/street_food_/
 
 
 Email charity.waweru@moringaschoo.com
