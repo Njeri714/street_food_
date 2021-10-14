@@ -8,7 +8,7 @@
     padding: 40px;
 }
 .nav_bar .nav ul li a{
-    text-decoration: none;
+    text-decoration:none;
     color: black;
     font-size: 18px;
 }
@@ -38,13 +38,27 @@ button{
     width: 1000px;
     height: 1000px;
     border-radius: 50%;
-    transform: translate ();
+    position: absolute;
     margin-left: 550px;
-    top: 20px;
-    margin-bottom: 400px;
-    
+    bottom: 70px;  
+    z-index: -1; 
 
 }
+.circle0{
+    border-style: dashed;
+    border-color: #EAAB1B;
+    height: 500px;
+    width: 800px;
+    border-radius: 70%;
+}
+.in{
+    display: flex;
+}
+
+.out {
+    display: flex;
+}
+
 body{
     font-family: "lato extended", lato, "Helvetica Neue", Arial, Helvetica, sans-serif;
 }
