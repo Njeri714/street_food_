@@ -33,6 +33,18 @@ button{
     text-align: center;
     font-weight: bold;
 }
+.circle{
+    background-color: #81dd4b;
+    width: 1000px;
+    height: 1000px;
+    border-radius: 50%;
+    transform: translate ();
+    margin-left: 550px;
+    top: 20px;
+    margin-bottom: 400px;
+    
+
+}
 body{
     font-family: "lato extended", lato, "Helvetica Neue", Arial, Helvetica, sans-serif;
 }
@@ -44,10 +56,6 @@ body{
 #menu{
     color: #6cb840;
     text-align: center;
-}
-.explore menu{
-    background-color: #EAF3E4;
-    padding:20px;
 }
 .eat .eating span{
     color: #EAAB1B;
@@ -86,17 +94,16 @@ body{
 .combo p{
     text-align: center;
 }
-/*.item1{
+#items{
     background-color:rgb(7, 199, 0);
     border-radius: 0px 0px 50px 0px;
     text-align: center;
     padding: 20px;
     margin: 40px;
-  
-    
 }
 .item-content{
     display: flex;
+    justify-content: center;
 }
 .item-content img {
     transform: translate(-100px, 10px);
@@ -105,10 +112,11 @@ body{
 }
 #items {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
     justify-content:space-between;
+    flex-wrap: wrap;
     padding: 12px 20px;
-}*/
+}
 .row {
     display: flex;
     justify-content: space-between;
